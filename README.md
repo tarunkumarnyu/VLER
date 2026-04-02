@@ -14,30 +14,7 @@ Built for the Advanced Mechatronics course (ROB-GY 6103) at NYU.
 
 ## System Architecture
 
-```
-                    ┌──────────────┐     ┌──────────────────┐
-                    │  2D LiDAR    │     │ Intel RealSense  │
-                    │  RPLIDAR C1  │     │    D435i          │
-                    └──────┬───────┘     └────────┬─────────┘
-                           │                      │
-                    ┌──────▼──────────────────────▼─────────┐
-                    │        Raspberry Pi 5                  │
-                    │     Ubuntu 22.04 + ROS 2 Humble        │
-                    │                                        │
-                    │  slam_toolbox ─── nav_path ─── nrf_rx  │
-                    └──┬──────────────────────────────┬──────┘
-                       │                              │
-              ┌────────▼────────┐           ┌─────────▼────────┐
-              │  Arduino Uno #1 │           │  Arduino Uno #2  │
-              │  Wheel Encoders │           │  NRF24L01 Rx     │
-              │  Motor Control  │           │  Room Commands   │
-              └────────┬────────┘           └──────────────────┘
-                       │                              ▲
-              ┌────────▼────────┐           ┌─────────┴────────┐
-              │ Differential-   │           │  NRF24L01 Tx     │
-              │ Drive Base      │           │  (Room Buttons)  │
-              └─────────────────┘           └──────────────────┘
-```
+![VLER Architecture](architecture.png)
 
 ## Hardware
 
