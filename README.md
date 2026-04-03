@@ -14,7 +14,9 @@ Built for the Advanced Mechatronics course (ROB-GY 6103) at NYU.
 
 ## System Architecture
 
-![VLER Architecture](architecture.png)
+<p align="center">
+  <img src="architecture.svg" width="100%" alt="VLER System Architecture"/>
+</p>
 
 ## Hardware
 
