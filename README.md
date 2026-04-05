@@ -12,6 +12,10 @@ Autonomous indoor delivery robot for hospital environments. Staff press a button
 
 Built for the Advanced Mechatronics course (ROB-GY 6103) at NYU.
 
+## Demo
+
+https://github.com/tarunkumarnyu/VLER/raw/main/assets/overview_demo.mp4
+
 ## System Architecture
 
 <p align="center">
