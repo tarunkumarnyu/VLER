@@ -16,6 +16,10 @@ Built for the Advanced Mechatronics course (ROB-GY 6103) at NYU.
 
 https://github.com/tarunkumarnyu/VLER/raw/main/assets/overview_demo.mp4
 
+
+https://github.com/user-attachments/assets/8fe4f810-8113-4d5b-b2eb-c29006a3a574
+
+
 ## System Architecture
 
 <p align="center">
